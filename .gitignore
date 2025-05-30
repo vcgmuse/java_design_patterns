@@ -1,0 +1,86 @@
+# Compiled class files
+
+*.class
+
+
+# Package Files
+
+*.jar
+
+*.war
+
+*.ear
+
+*.zip
+
+*.tar.gz
+
+*.rar
+
+
+# Log files
+
+*.log
+
+logs/
+
+*.log.*
+
+
+# Build directories
+
+bin/         # For basic Eclipse projects
+
+target/      # For Maven projects
+
+build/       # For Gradle projects
+
+
+# IDE-specific files
+
+.project
+
+.classpath
+
+.settings/   # Eclipse project settings
+
+.idea/       # IntelliJ IDEA
+
+*.iml        # IntelliJ IDEA module files
+
+.vscode/     # VS Code settings
+
+.DS_Store    # macOS generated files
+
+Thumbs.db    # Windows generated files
+
+
+# Maven/Gradle specific files
+
+# Maven wrapper
+
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle wrapper
+
+.gradle/
+
+gradle/wrapper/gradle-wrapper.jar
+
+
+# Data/Database files (if not meant for version control)
+
+*.db
+
+*.sqlite
+
+data/
+
+
+# Temporary files
+
+*~
+
+*.bak
+
+*.tmp
