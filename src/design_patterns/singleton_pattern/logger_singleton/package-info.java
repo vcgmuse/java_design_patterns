@@ -1,0 +1,1 @@
+package design_patterns.singleton_pattern.logger_singleton;

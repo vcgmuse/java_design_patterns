@@ -1,0 +1,1 @@
+package design_patterns.observer_pattern.stock_monitor.models;

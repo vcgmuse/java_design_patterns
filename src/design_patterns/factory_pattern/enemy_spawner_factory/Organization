@@ -1,0 +1,14 @@
+design_patterns.factory_pattern.enemy_spawner_factory
+├── Main.java               // The application's entry point / client code
+├── api                     // (or 'contracts', 'interfaces', 'common')
+│   ├── Enemy.java          // The Enemy product interface
+│   └── EnemySpawnerFactory.java // The Enemy Spawner Factory abstract creator
+│
+├── enemies                 // Package for all concrete Enemy implementations (the products)
+│   ├── Goblin.java
+│   ├── Orc.java
+│   └── Dragon.java
+│
+└── spawners                // Package for all concrete EnemySpawnerFactory implementations (the creators)
+    ├── ForestEnemySpawnerFactory.java
+    └── MountainEnemySpawnerFactory.java

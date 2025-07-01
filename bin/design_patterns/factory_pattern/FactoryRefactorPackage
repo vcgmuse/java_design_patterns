@@ -1,0 +1,23 @@
+com.yourgame.burgers  (Or 'com.foodapp.hamburgers' - a main feature/domain package)
+├── Main.java              (Or 'client' / 'app')
+│
+├── common                 (For shared, core elements across all burger types)
+│   ├── Hamburger.java     (Abstract Product)
+│   └── HamburgerStore.java (Abstract Creator)
+│
+├── jamaican               (Feature package for Jamaican burgers)
+│   ├── JamHamburgerstore.java     (Concrete Creator for Jamaican)
+│   ├── JamaicanCheeseBurger.java  (Concrete Product for Jamaican)
+│   └── JamaicanVeggieBurger.java  (Concrete Product for Jamaican)
+│
+├── mozambican             (Feature package for Mozambican burgers)
+│   ├── MozHamburgerStore.java     (Concrete Creator for Mozambican)
+│   ├── MozambicanCheeseBurger.java(Concrete Product for Mozambican)
+│   └── MozambicanVeggieBurger.java(Concrete Product for Mozambican)
+│
+└── generic                (Or 'standard' - for the basic, non-regional burgers)
+    ├── BunLessBurger.java
+    ├── CheeseBurger.java
+    ├── GreekBurger.java
+    ├── MeatLover.java
+    └── VeggieBurger.java

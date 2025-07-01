@@ -1,0 +1,1 @@
+package design_patterns.singleton_pattern.game_manager_singleton;

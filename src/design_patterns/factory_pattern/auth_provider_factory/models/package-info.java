@@ -1,0 +1,1 @@
+package design_patterns.factory_pattern.auth_provider_factory.models;
